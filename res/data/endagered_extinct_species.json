@@ -1,0 +1,478 @@
+{
+    "ACTINOPTERYGII": {
+        "Extinct": "79",
+        "Extinct in the Wild": "10",
+        "Critically Endangered": "626",
+        "Endangered": "1,000",
+        "Vulnerable": "1,241"
+    },
+    "AMPHIBIA": {
+        "Extinct": "35",
+        "Extinct in the Wild": "2",
+        "Critically Endangered": "663",
+        "Endangered": "1,060",
+        "Vulnerable": "721"
+    },
+    "ANTHOZOA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "6",
+        "Endangered": "26",
+        "Vulnerable": "202"
+    },
+    "ARACHNIDA": {
+        "Extinct": "9",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "68",
+        "Endangered": "88",
+        "Vulnerable": "62"
+    },
+    "ASTEROIDEA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "AVES": {
+        "Extinct": "159",
+        "Extinct in the Wild": "5",
+        "Critically Endangered": "223",
+        "Endangered": "460",
+        "Vulnerable": "798"
+    },
+    "BIVALVIA": {
+        "Extinct": "32",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "83",
+        "Endangered": "68",
+        "Vulnerable": "60"
+    },
+    "BRANCHIOPODA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "8",
+        "Endangered": "13",
+        "Vulnerable": "22"
+    },
+    "CEPHALASPIDOMORPHI": {
+        "Extinct": "1",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "2",
+        "Endangered": "4",
+        "Vulnerable": "2"
+    },
+    "CEPHALOPODA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "2",
+        "Vulnerable": "2"
+    },
+    "CHILOPODA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "3",
+        "Endangered": "5",
+        "Vulnerable": "1"
+    },
+    "CHONDRICHTHYES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "89",
+        "Endangered": "124",
+        "Vulnerable": "180"
+    },
+    "CLITELLATA": {
+        "Extinct": "2",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "6",
+        "Endangered": "13",
+        "Vulnerable": "8"
+    },
+    "COLLEMBOLA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "2",
+        "Endangered": "0",
+        "Vulnerable": "2"
+    },
+    "DIPLOPODA": {
+        "Extinct": "3",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "35",
+        "Endangered": "32",
+        "Vulnerable": "15"
+    },
+    "ECHINOIDEA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "ENOPLA": {
+        "Extinct": "1",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "1",
+        "Vulnerable": "1"
+    },
+    "GASTROPODA": {
+        "Extinct": "267",
+        "Extinct in the Wild": "14",
+        "Critically Endangered": "617",
+        "Endangered": "526",
+        "Vulnerable": "980"
+    },
+    "HEXANAUPLIA": {
+        "Extinct": "1",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "0",
+        "Vulnerable": "24"
+    },
+    "HOLOTHUROIDEA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "7",
+        "Vulnerable": "9"
+    },
+    "HYDROZOA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "2",
+        "Vulnerable": "2"
+    },
+    "INSECTA": {
+        "Extinct": "63",
+        "Extinct in the Wild": "1",
+        "Critically Endangered": "368",
+        "Endangered": "741",
+        "Vulnerable": "850"
+    },
+    "MALACOSTRACA": {
+        "Extinct": "7",
+        "Extinct in the Wild": "1",
+        "Critically Endangered": "141",
+        "Endangered": "161",
+        "Vulnerable": "309"
+    },
+    "MAMMALIA": {
+        "Extinct": "85",
+        "Extinct in the Wild": "2",
+        "Critically Endangered": "226",
+        "Endangered": "546",
+        "Vulnerable": "555"
+    },
+    "MAXILLOPODA": {
+        "Extinct": "1",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "6",
+        "Endangered": "0",
+        "Vulnerable": "47"
+    },
+    "MEROSTOMATA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "1",
+        "Vulnerable": "1"
+    },
+    "MONOPLACOPHORA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "MYXINI": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "2",
+        "Vulnerable": "6"
+    },
+    "OSTRACODA": {
+        "Extinct": "2",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "2",
+        "Endangered": "0",
+        "Vulnerable": "9"
+    },
+    "POLYCHAETA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "POLYPLACOPHORA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "1",
+        "Vulnerable": "0"
+    },
+    "REPTILIA": {
+        "Extinct": "32",
+        "Extinct in the Wild": "2",
+        "Critically Endangered": "368",
+        "Endangered": "658",
+        "Vulnerable": "561"
+    },
+    "SARCOPTERYGII": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "1",
+        "Vulnerable": "1"
+    },
+    "TURBELLARIA": {
+        "Extinct": "1",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "UDEONYCHOPHORA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "3",
+        "Endangered": "2",
+        "Vulnerable": "4"
+    },
+    "PHAEOPHYCEAE": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "4",
+        "Endangered": "1",
+        "Vulnerable": "1"
+    },
+    "AGARICOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "12",
+        "Endangered": "60",
+        "Vulnerable": "113"
+    },
+    "ARTHONIOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "3",
+        "Vulnerable": "0"
+    },
+    "DOTHIDEOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "0",
+        "Vulnerable": "1"
+    },
+    "EUROTIOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "2"
+    },
+    "GEOGLOSSOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "2"
+    },
+    "LECANOROMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "12",
+        "Endangered": "28",
+        "Vulnerable": "15"
+    },
+    "LEOTIOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "1",
+        "Vulnerable": "1"
+    },
+    "NOT ASSIGNED": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "1"
+    },
+    "PEZIZOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "1",
+        "Vulnerable": "3"
+    },
+    "SORDARIOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "2",
+        "Endangered": "0",
+        "Vulnerable": "1"
+    },
+    "USTILAGINOMYCETES": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "2"
+    },
+    "ANDREAEOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "1",
+        "Vulnerable": "1"
+    },
+    "ANTHOCEROTOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "2",
+        "Vulnerable": "0"
+    },
+    "BRYOPSIDA": {
+        "Extinct": "4",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "24",
+        "Endangered": "36",
+        "Vulnerable": "33"
+    },
+    "CHAROPHYACEAE": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "CHLOROPHYCEAE": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "CYCADOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "4",
+        "Critically Endangered": "53",
+        "Endangered": "65",
+        "Vulnerable": "74"
+    },
+    "FLORIDEOPHYCEAE": {
+        "Extinct": "1",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "6",
+        "Endangered": "0",
+        "Vulnerable": "3"
+    },
+    "GINKGOOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "1",
+        "Vulnerable": "0"
+    },
+    "GNETOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "1",
+        "Vulnerable": "4"
+    },
+    "JUNGERMANNIOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "12",
+        "Endangered": "23",
+        "Vulnerable": "20"
+    },
+    "LILIOPSIDA": {
+        "Extinct": "13",
+        "Extinct in the Wild": "7",
+        "Critically Endangered": "708",
+        "Endangered": "1,327",
+        "Vulnerable": "1,061"
+    },
+    "LYCOPODIOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "14",
+        "Endangered": "12",
+        "Vulnerable": "16"
+    },
+    "MAGNOLIOPSIDA": {
+        "Extinct": "102",
+        "Extinct in the Wild": "31",
+        "Critically Endangered": "3,904",
+        "Endangered": "7,352",
+        "Vulnerable": "7,294"
+    },
+    "MARCHANTIOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "2",
+        "Endangered": "3",
+        "Vulnerable": "2"
+    },
+    "PINOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "29",
+        "Endangered": "96",
+        "Vulnerable": "80"
+    },
+    "POLYPODIOPSIDA": {
+        "Extinct": "2",
+        "Extinct in the Wild": "1",
+        "Critically Endangered": "66",
+        "Endangered": "88",
+        "Vulnerable": "84"
+    },
+    "POLYTRICHOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "SPHAGNOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "1",
+        "Endangered": "2",
+        "Vulnerable": "2"
+    },
+    "TAKAKIOPSIDA": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "1"
+    },
+    "ULVOPHYCEAE": {
+        "Extinct": "0",
+        "Extinct in the Wild": "0",
+        "Critically Endangered": "0",
+        "Endangered": "0",
+        "Vulnerable": "0"
+    },
+    "Total": {
+        "Extinct": "902",
+        "Extinct in the Wild": "80",
+        "Critically Endangered": "8,404",
+        "Endangered": "14,647",
+        "Vulnerable": "15,492"
+    }
+}
