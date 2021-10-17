@@ -1,23 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import logo from './logo.svg'
+import './App.css'
+import TopNavBar from './components/TopNavBar'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import MapChart from './components/MapChart'
 
-import "./App.css";
-
-const geoUrl =
-    "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
-
-const App = () => (
-    <div>
-        <ComposableMap>
-            <Geographies geography={geoUrl}>
-                {({ geographies }) =>
-                    geographies.map(geo => <Geography key={geo.rsmKey} geography={geo} />)
-                }
-            </Geographies>
-        </ComposableMap>
+function App () {
+  return (
+    <div className='App'>
+      <TopNavBar />
     </div>
-);
+  )
+}
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+export default App
