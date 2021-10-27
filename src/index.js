@@ -11,7 +11,7 @@ function App() {
     return (
         <><div id="map">
             <MapChart setTooltipContent={setContent} />
-            <ReactTooltip>{content}</ReactTooltip>
+            <ReactTooltip html={true}>{content}</ReactTooltip>
         </div>
             <div>
                 <p id="infographic">This is the infographic section</p>
