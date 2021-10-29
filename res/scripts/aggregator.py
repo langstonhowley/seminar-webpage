@@ -2,6 +2,7 @@ import csv
 import json
 import os
 import pandas as pd
+import requests
 
 
 #These are the dicts that hold each data point
@@ -89,6 +90,18 @@ def main():
             #     print(data.at[i,'Unnamed: ' + str(j)])
 
         writeToJson(deforestation_data, res_dir + '/data/tree_cover_loss_in_specific_countries2021.json')
+
+
+    if(not os.path.exists(res_dir + '/data/country_names_from_react.json')):
+        res = requests.get("https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json").json()
+        
+        for country_data in res["objects"]["ne_110m_admin_0_countries"]["geometries"]:
+            name = country_data["properties"]["NAME"]
+            iso = country_data["properties"]["ISO_A3"]
+
+            print (name)
+
+
 
     #print(data)
 
