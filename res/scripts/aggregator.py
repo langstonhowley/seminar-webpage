@@ -1,7 +1,7 @@
 import csv
 import json
 import os
-import xlrd
+import pandas as pd
 
 
 #These are the dicts that hold each data point
@@ -34,7 +34,7 @@ def main():
     #by continental reigon
     filename = res_dir + '/data/living-planet-index-by-region.csv'
 
-    if(not os.path.exists(filename)):
+    if(not os.path.exists(res_dir + '/data/regional_living_planet_index.json')):
         with open(filename, 'r') as file:
             reader = csv.DictReader(file)
             for row in reader:
@@ -45,7 +45,7 @@ def main():
     #This is the list of endangered "red listed species" from the IUCN
     filename = res_dir + '/data/Table 3  Species by kingdom and class - show all.csv'
 
-    if(not os.path.exists(filename)):
+    if(not os.path.exists(res_dir + '/data/endagered_extinct_species.json')):
         with open(filename, 'r') as file:
             reader = csv.DictReader(file)
             for row in reader:
@@ -62,7 +62,7 @@ def main():
     #This is the annual change in forest area from Our World in Data
     filename = res_dir + '/data/annual-change-forest-area.csv'
 
-    if(not os.path.exists(filename)):
+    if(not os.path.exists(res_dir + '/data/countries.json')):
         with open(filename, 'r') as file:
             reader = csv.DictReader(file)
             for row in reader:
@@ -76,6 +76,21 @@ def main():
                     countries[country_code][row['Year']] = net_conversion
 
         writeToJson(countries, res_dir + '/data/countries.json')
+
+
+    if(not os.path.exists(res_dir + '/data/tree_cover_loss_in_specific_countries2021.json')):
+        filename = res_dir + '/data/statistic_id1025472_global-tree-cover-loss-2020-by-key-country.xlsx'
+        data = pd.read_excel(filename, sheet_name='Data')
+
+        deforestation_data = {}
+        for i in range (5, 14):
+            deforestation_data[data.at[i, 'Unnamed: ' + str(1)]] = data.at[i, 'Unnamed: ' + str(2)]
+            # for j in range (1, 3):
+            #     print(data.at[i,'Unnamed: ' + str(j)])
+
+        writeToJson(deforestation_data, res_dir + '/data/tree_cover_loss_in_specific_countries2021.json')
+
+    #print(data)
 
 if __name__ == "__main__" :
     main()
