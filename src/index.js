@@ -12,28 +12,7 @@ ReactDOM.render(
   document.getElementById('root')
 )
 
-<<<<<<< HEAD
-import MapChart from "./MapChart";
-
-function App() {
-    const [content, setContent] = useState("");
-    return (
-        <><div id="map">
-            <MapChart setTooltipContent={setContent} />
-            <ReactTooltip html={true}>{content}</ReactTooltip>
-        </div>
-            <div>
-                <p id="infographic">This is the infographic section</p>
-            </div>
-        </>
-    );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
-=======
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals()
->>>>>>> main
