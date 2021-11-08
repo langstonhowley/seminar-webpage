@@ -18,8 +18,8 @@ function App () {
           <TopNavBar />
           <div id='map-section'>
               <div id='map'>
-        <MapChart setTooltipContent={setContent} />
-        <ReactTooltip html={true}>{content}</ReactTooltip>
+                 <MapChart setTooltipContent={setContent} />
+                 <ReactTooltip html={true}>{content}</ReactTooltip>
               </div>
           </div>
     </div>
