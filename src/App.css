@@ -386,3 +386,54 @@ button {
     height: 100vh;
     width: 100vw;
 }
+
+#map-section{
+    background: aqua;
+}
+
+#map{
+    padding: 5%;
+    width: 100%;
+}
+
+#carousel {
+    width: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+#carousel-divider1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-200%);
+    transform: translateY(-300%);
+}
+
+#carousel-divider2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-200%);
+    transform: translateY(-180%);
+}
+
+#carousel-divider3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-200%);
+    transform: translateY(-160%);
+}
+
+#carousel-divider4 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-200%);
+    transform: translateY(-230%);
+}
+
+
+#infographic {
+}

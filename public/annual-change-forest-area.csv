@@ -2,7 +2,11 @@
 Entity,ISO3,Year,Net-forest-conversion
 =======
 Entity,Code,Year,Net forest conversion
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 038141a96ad1df1c29fcfa19e401e0b5e62f33a4
+>>>>>>> Ronan
 Algeria,DZA,1990,-8800
 Algeria,DZA,2000,33900
 Algeria,DZA,2010,7600
