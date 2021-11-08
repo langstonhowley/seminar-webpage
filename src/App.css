@@ -386,3 +386,12 @@ button {
     height: 100vh;
     width: 100vw;
 }
+
+#map-section{
+    background: aqua;
+}
+
+#map{
+    padding: 5%;
+    width: 100%;
+}

@@ -15,11 +15,13 @@ function App () {
   const [content, setContent] = useState('')
   return (
     <div className='App'>
-      <TopNavBar />
-      <div id='map'>
+          <TopNavBar />
+          <div id='map-section'>
+              <div id='map'>
         <MapChart setTooltipContent={setContent} />
         <ReactTooltip html={true}>{content}</ReactTooltip>
-      </div>
+              </div>
+          </div>
     </div>
   )
 }
