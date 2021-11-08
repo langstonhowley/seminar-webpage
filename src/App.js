@@ -1,23 +1,33 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import logo from './logo.svg'
+import './App.css'
+import TopNavBar from './components/TopNavBar'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import MapChart from './components/MapChart'
+import BgVideo from './components/BgVideo'
+import InfoGraphics from './components/Infographic.js'
 
-import "./App.css";
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
+import ReactTooltip from 'react-tooltip'
 
-const geoUrl =
-    "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+import './App.css'
 
-const App = () => (
-    <div>
-        <ComposableMap>
-            <Geographies geography={geoUrl}>
-                {({ geographies }) =>
-                    geographies.map(geo => <Geography key={geo.rsmKey} geography={geo} />)
-                }
-            </Geographies>
-        </ComposableMap>
+function App () {
+  const [content, setContent] = useState('')
+  return (
+    <div className='App'>
+          <TopNavBar />
+          <div id='map-section'>
+              <div id='map'>
+                 <MapChart setTooltipContent={setContent} />
+                 <ReactTooltip html={true}>{content}</ReactTooltip>
+              </div>
+          </div>
+          <div id='map-section'>
+              <InfoGraphics />
+          </div>
     </div>
-);
+  )
+}
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+export default App
