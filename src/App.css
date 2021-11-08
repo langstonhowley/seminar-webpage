@@ -387,15 +387,6 @@ button {
     width: 100vw;
 }
 
-#map-section{
-    background: aqua;
-}
-
-#map{
-    padding: 5%;
-    width: 100%;
-}
-
 #carousel {
     width: 100%;
     width: 100%;
@@ -436,4 +427,14 @@ button {
 
 
 #infographic {
+}
+#mapSection{
+  overflow: hidden;
+  background: skyblue;
+  
+}
+#maps{
+min-width: 100%;
+padding-left: 5%;
+padding-right: 5%;
 }

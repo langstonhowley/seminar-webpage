@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import MapChart from './components/MapChart'
 import BgVideo from './components/BgVideo'
 import InfoGraphics from './components/Infographic.js'
+import MapHolder from './components/MapHolder.js'
 
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
@@ -17,13 +18,12 @@ function App () {
   return (
     <div className='App'>
           <TopNavBar />
-          <div id='map-section'>
-              <div id='map'>
-                 <MapChart setTooltipContent={setContent} />
-                 <ReactTooltip html={true}>{content}</ReactTooltip>
+          <div id='mapSection'>
+              <div id='maps'>
+                <MapHolder/>
               </div>
           </div>
-          <div id='map-section'>
+          <div id='mapSection'>
               <InfoGraphics />
           </div>
     </div>
