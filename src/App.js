@@ -1,33 +1,33 @@
-import logo from './logo.svg'
 import './App.css'
 import TopNavBar from './components/TopNavBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import MapChart from './components/MapChart'
 import BgVideo from './components/BgVideo'
 import InfoGraphics from './components/Infographic.js'
+import MapHolder from './components/MapHolder.js'
+import Footer from './components/Footer.js'
 
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
-import ReactTooltip from 'react-tooltip'
 
-import './App.css'
-
-function App () {
-  const [content, setContent] = useState('')
-  return (
-    <div className='App'>
-          <TopNavBar />
-          <div id='map-section'>
-              <div id='map'>
-                 <MapChart setTooltipContent={setContent} />
-                 <ReactTooltip html={true}>{content}</ReactTooltip>
-              </div>
-          </div>
-          <div id='map-section'>
-              <InfoGraphics />
-          </div>
-    </div>
-  )
+function App() {
+    return (
+        <div className='App'>
+            <TopNavBar />
+            <div id='section'>
+                <div id='maps'>
+                    <MapHolder />
+                </div>
+            </div>
+            <div id='section'>
+            <div id='carouselSection'>
+                <InfoGraphics />
+                </div>
+            </div>
+            <div style={{ backgroundColor: "#212529" }}>
+                <Footer />
+            </div>
+        </div>
+    )
 }
 
 export default App

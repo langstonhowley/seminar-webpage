@@ -101,8 +101,9 @@ const MapChart = ({ setTooltipContent }) => {
     return (
         <>
             <ComposableMap data-tip='' projectionConfig={{ scale: 150 }}>
-                {/*      <ZoomableGroup*/}
-                {/*  translateExtent={[*/}
+                {/*<ZoomableGroup*/}
+                {/*  filterZoomEvent={handleFilter}*/}
+                {/*  translateextent={[*/}
                 {/*    [-75, 30],*/}
                 {/*    [950, 600]*/}
                 {/*  ]}*/}
@@ -232,10 +233,10 @@ const MapChart = ({ setTooltipContent }) => {
                         })
                     }
                 </Geographies>
-                {/*</ZoomableGroup>*/}
+              {/*  </ZoomableGroup>*/}
             </ComposableMap>
 
-            <div style={{ borderRadius: 15, backgroundColor: '#D3D3D3', width: '100%', paddingLeft: '3%', paddingRight: '5%', paddingTop: '2%', paddingBottom: '1%' }}>
+            <div style={{ borderRadius: 15, backgroundColor: '#F0FFFF', width: '100%', paddingLeft: '3%', paddingRight: '5%', paddingTop: '2%', paddingBottom: '1%' }}>
                 <Slider
                     onChange={(event, value) => setYear((value - 10) / 3 + 1990)}
                     track={false}
