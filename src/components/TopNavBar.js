@@ -42,8 +42,12 @@ class TopNavBar extends React.Component {
           </VideoBg>
         </div>
         <div className='bgoverlay'>
-          <div className='form'>
-            <h1>Sup Dawg</h1>
+                <div className='form'>
+                    <div>
+                        <h1 style={{ textAlign: 'center' }}>The World is Losing Wildlife!</h1>
+                        <h3 style={{ textAlign: 'center' }}>Why is that bad?</h3>
+                    </div>
+                    <h6 style={{ textAlign: 'center' }}>Scroll down to find out<br/>or<br/>use the topbar shorcuts to jump around</h6>
           </div>
         </div>
       </div>
