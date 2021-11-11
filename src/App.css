@@ -411,7 +411,7 @@ button {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-200%);
-    transform: translateY(-300%);
+    transform: translateY(-265%);
     background-color: azure;
     padding: 2%;
 }
@@ -431,7 +431,7 @@ button {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-200%);
-    transform: translateY(-160%);
+    transform: translateY(-220%);
     background-color: azure;
     padding: 2%;
 }
