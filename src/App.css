@@ -354,7 +354,7 @@ template {
 }
 
 .form {
-    background: azure;
+    background: #393c49;
     width: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +391,7 @@ button {
 }
 
 #carouselSection {
-    background: #ECE0F3;
+    background: #ebeeee;
     min-width: 100%;
 }
 
@@ -403,7 +403,7 @@ button {
 #carousel {
     border: solid;
     border-width: 3px;
-    border-color: black;
+    border-color: dimgrey;
 }
 
 #carousel-divider1 {
@@ -411,9 +411,10 @@ button {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-200%);
+    background-color: lightgrey;
     transform: translateY(-265%);
-    background-color: azure;
     padding: 2%;
+    border-radius: 15px;
 }
 
 #carousel-divider2 {
@@ -422,8 +423,9 @@ button {
     top: 50%;
     -ms-transform: translateY(-200%);
     transform: translateY(-180%);
-    background-color: azure;
+    background-color: lightgrey;
     padding: 2%;
+    border-radius: 15px;
 }
 
 #carousel-divider3 {
@@ -431,9 +433,10 @@ button {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-200%);
+    background-color: lightgrey;
     transform: translateY(-220%);
-    background-color: azure;
     padding: 2%;
+    border-radius: 15px;
 }
 
 #carousel-divider4 {
@@ -442,23 +445,23 @@ button {
     top: 50%;
     -ms-transform: translateY(-200%);
     transform: translateY(-230%);
-    background-color: azure;
+    background-color: lightgrey;
     padding: 2%;
+    border-radius: 15px;
 }
 
 #carousel-text{
-    color: darkslateblue;
+    color: dimgrey;
 }
 
 #infographic {
 }
 
 #section {
-    overflow: hidden;
 }
 
 #maps {
-    background: skyblue;
+    background: #212529;
     min-width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -467,7 +470,11 @@ button {
 #map-legend-box {
     border: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: lightgrey;
     width: 20px;
     height: 20px;
+}
+
+#text {
+    color: lightgrey;
 }

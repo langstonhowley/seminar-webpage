@@ -236,7 +236,7 @@ const MapChart = ({ setTooltipContent }) => {
               {/*  </ZoomableGroup>*/}
             </ComposableMap>
 
-            <div style={{ borderRadius: 15, backgroundColor: '#F0FFFF', width: '100%', paddingLeft: '3%', paddingRight: '5%', paddingTop: '2%', paddingBottom: '1%' }}>
+            <div style={{ backgroundColor: "#ebeeee", width: '100%', paddingLeft: '3%', paddingRight: '5%', paddingTop: '2%', paddingBottom: '1%' }}>
                 <Slider
                     onChange={(event, value) => setYear((value - 10) / 3 + 1990)}
                     track={false}
