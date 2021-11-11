@@ -9,25 +9,27 @@ import Footer from './components/Footer.js'
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 
-function App() {
-    return (
-        <div className='App'>
-            <TopNavBar />
-            <div id='section'>
-                <div id='maps'>
-                    <MapHolder />
-                </div>
-            </div>
-            <div id='section'>
-            <div id='carouselSection'>
-                <InfoGraphics />
-                </div>
-            </div>
-            <div style={{ backgroundColor: "#212529" }}>
-                <Footer />
-            </div>
+function App () {
+  return (
+    <div className='App'>
+      <div id='section'>
+        <TopNavBar />
+      </div>
+      <div id='section'>
+        <div id='maps'>
+          <MapHolder />
         </div>
-    )
+      </div>
+      <div id='section'>
+        <div id='carouselSection'>
+          <InfoGraphics />
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#212529' }}>
+        <Footer />
+      </div>
+    </div>
+  )
 }
 
 export default App

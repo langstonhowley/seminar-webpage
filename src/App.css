@@ -411,8 +411,8 @@ button {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-200%);
-    transform: translateY(-300%);
     background-color: lightgrey;
+    transform: translateY(-265%);
     padding: 2%;
     border-radius: 15px;
 }
@@ -433,8 +433,8 @@ button {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-200%);
-    transform: translateY(-160%);
     background-color: lightgrey;
+    transform: translateY(-220%);
     padding: 2%;
     border-radius: 15px;
 }
@@ -458,7 +458,6 @@ button {
 }
 
 #section {
-
 }
 
 #maps {

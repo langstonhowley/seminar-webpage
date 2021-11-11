@@ -94,7 +94,7 @@ class InfoGraphics extends React.Component {
                             alt="Image Six"
                         />
                         <Carousel.Caption>
-                            <div id="carousel-divider3" >
+                            <div id="carousel-divider2" >
                                 <h3 id="carousel-text">
                                     This cascade could be referred to as a loss in biodiversity,
                                     which could seriously damage the fragile ecosystem. In this case,
@@ -110,7 +110,7 @@ class InfoGraphics extends React.Component {
                             alt="Image Seven"
                         />
                         <Carousel.Caption>
-                            <div id="carousel-divider2" >
+                            <div id="carousel-divider4" >
                                 <h3 id="carousel-text">
                                     Even though loss in biodiversity is sad and it would be unfortunate
                                     to lose the resources in a local area, it is also a sign of a greater
@@ -125,7 +125,7 @@ class InfoGraphics extends React.Component {
                             alt="Image Eight"
                         />
                         <Carousel.Caption>
-                            <div id="carousel-divider2" >
+                            <div id="carousel-divider1" >
                                 <h3 id="carousel-text">
                                     Habitat destruction is one of the main causes of biodiversity loss,
             so the question is what is the cause of habitat destruction</h3>
@@ -152,7 +152,7 @@ class InfoGraphics extends React.Component {
                             alt="Image Ten"
                         />
                         <Carousel.Caption>
-                            <div id="carousel-divider3" >
+                            <div id="carousel-divider2" >
                                 <h3 id="carousel-text">Sometimes habitat is destroyed by direct means,
                                 such as deforestation, or the cutting down of large
                                 amounts of trees, and other times it is by indirect means,
@@ -168,7 +168,7 @@ class InfoGraphics extends React.Component {
                             alt="Image Eleven"
                         />
                         <Carousel.Caption>
-                            <div id="carousel-divider2" >
+                            <div id="carousel-divider4" >
                                 <h3 id="carousel-text">These actions, both direct and indirect, are causing great change
                                 to our planet and in various ways; such as climate change, habitat
               destruction and large-scale biodiversity loss.</h3>
@@ -182,7 +182,7 @@ class InfoGraphics extends React.Component {
                             alt="Image Twelve"
                         />
                         <Carousel.Caption>
-                            <div id="carousel-divider2" >
+                            <div id="carousel-divider3" >
                                 <h3 id="carousel-text">There exists a current working theory that the world has undergone
                                 five mass extinctions, in which the majority of the species on earth
               were lost, and that the world is currently undergoing the sixth one.</h3>
