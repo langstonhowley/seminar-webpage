@@ -45,7 +45,7 @@ function valueLabelFormat(value) {
 }
 
 function percentRound(dec) {
-    var value = parseInt(dec * 10);
+    var value = parseInt(dec * 40);
     if (value < 1)
         value = 1;
     else if (value > 10)
@@ -123,7 +123,7 @@ const MapChart = ({ setTooltipContent }) => {
                                     geography={geo}
                                     onMouseEnter={() => {
                                         const { NAME } = geo.properties;
-                                        (def && est && animal && plant && fungus && chromist)
+                                        (def && animal && plant && fungus && chromist)
                                             ? setTooltipContent(`${NAME}<br />
                                              ----------------<br />
                                              Species lost: ` +
@@ -142,10 +142,18 @@ const MapChart = ({ setTooltipContent }) => {
                                                         parseInt(fungus['Subtotal-(EX+EW)']) +
                                                         parseInt(chromist['Subtotal-(EX+EW)']))) +
                                                 `<br />
-                                             Estimated Biodiversity Loss Over Time: ${est['Percent']}<br />
+                                             Estimated Biodiversity Loss Over Time: ~`+ Math.round(((parseInt(animal['Subtotal(threatened spp.)']) +
+                                                    parseInt(plant['Subtotal(threatened spp.)']) +
+                                                    parseInt(fungus['Subtotal(threatened spp.)']) +
+                                                    parseInt(chromist['Subtotal(threatened spp.)']))
+                                                    /
+                                                    (parseInt(animal['Total']) +
+                                                        parseInt(plant['Total']) +
+                                                        parseInt(fungus['Total']) +
+                                                        parseInt(chromist['Total']))) * 100) + `%<br />
                                              Deforestation: ${def['Net-forest-conversion']} hectares in ` + year
                                             )
-                                            : (!def && est && animal && plant && fungus && chromist && est['Percent'] != `N/A`)
+                                            : (!def && animal && plant && fungus && chromist)
                                                 ? setTooltipContent(`${NAME}<br />
                                              ----------------<br />
                                              Species lost: ` +
@@ -164,42 +172,26 @@ const MapChart = ({ setTooltipContent }) => {
                                                             parseInt(fungus['Subtotal-(EX+EW)']) +
                                                             parseInt(chromist['Subtotal-(EX+EW)']))) +
                                                     `<br />
-                                             Estimated Biodiversity Loss Over Time: ${est['Percent']}<br />
+                                             Estimated Biodiversity Loss Over Time:  ~`+ Math.round(((parseInt(animal['Subtotal(threatened spp.)']) +
+                                                        parseInt(plant['Subtotal(threatened spp.)']) +
+                                                        parseInt(fungus['Subtotal(threatened spp.)']) +
+                                                        parseInt(chromist['Subtotal(threatened spp.)']))
+                                                        /
+                                                        (parseInt(animal['Total']) +
+                                                            parseInt(plant['Total']) +
+                                                            parseInt(fungus['Total']) +
+                                                            parseInt(chromist['Total']))) * 100) + `%<br />
                                             `)
-                                                : (!def && est && animal && plant && fungus && chromist)
+                                                : (!def && est && (!animal || !plant || !fungus || !chromist) && est['Percent'] != `N/A`)
                                                     ? setTooltipContent(`${NAME}<br />
-                                             ----------------<br />
-                                             Species lost: ` +
-                                                        (parseInt(animal['Subtotal-(EX+EW)']) +
-                                                            parseInt(plant['Subtotal-(EX+EW)']) +
-                                                            parseInt(fungus['Subtotal-(EX+EW)']) +
-                                                            parseInt(chromist['Subtotal-(EX+EW)'])) +
-                                                        `<br />
-                                             Endangered Species: ` +
-                                                        (parseInt(animal['Subtotal(threatened spp.)']) +
-                                                            parseInt(plant['Subtotal(threatened spp.)']) +
-                                                            parseInt(fungus['Subtotal(threatened spp.)']) +
-                                                            parseInt(chromist['Subtotal(threatened spp.)']) -
-                                                            (parseInt(animal['Subtotal-(EX+EW)']) +
-                                                                parseInt(plant['Subtotal-(EX+EW)']) +
-                                                                parseInt(fungus['Subtotal-(EX+EW)']) +
-                                                                parseInt(chromist['Subtotal-(EX+EW)']))) +
-                                                        `<br />
-                                            `)
-                                                    : (def && est)
+                                                                         ----------------<br />
+                                                                         Estimated Biodiversity Loss Over Time: ${est['Percent']}<br />`
+                                                    )
+                                                    : (def && (!est || est['Percent'] == `N/A`))
                                                         ? setTooltipContent(`${NAME}<br />
-                                             ----------------<br />
-                                             Estimated Biodiversity Loss Over Time: ${est['Percent']}<br />
-                                             Deforestation: ${def['Net-forest-conversion']} hectares in ` + year
-                                                        )
-                                                        : (!def && est && est['Percent'] == `N/A`)
-                                                            ? setTooltipContent(` No data found for ${NAME} in ` + year)
-                                                            : (!def && est)
-                                                                ? setTooltipContent(`${NAME}<br />
-                                             ----------------<br />
-                                             Estimated Biodiversity Loss Over Time: ${est['Percent']}
-                                           `)
-                                                                : setTooltipContent(`No Data Found for ${NAME} in ` + year)
+                                                                                ----------------<br />
+                                                                                 Deforestation: ${def['Net-forest-conversion']} hectares in ` + year)
+                                                        : setTooltipContent(`No Data Found for ${NAME} in ` + year)
                                     }}
                                     onMouseLeave={() => {
                                         setTooltipContent('')
@@ -233,7 +225,7 @@ const MapChart = ({ setTooltipContent }) => {
                         })
                     }
                 </Geographies>
-              {/*  </ZoomableGroup>*/}
+                {/*  </ZoomableGroup>*/}
             </ComposableMap>
 
             <div style={{ backgroundColor: "#ebeeee", width: '100%', paddingLeft: '3%', paddingRight: '5%', paddingTop: '2%', paddingBottom: '1%' }}>
