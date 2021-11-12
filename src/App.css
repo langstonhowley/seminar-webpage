@@ -42,6 +42,13 @@ h1 {
     margin: 0.67em 0;
 }
 
+h6 { 
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: white
+}
+
+
 /* Grouping content
      ========================================================================== */
 
@@ -354,8 +361,7 @@ template {
 }
 
 .form {
-    background: #393c49;
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
