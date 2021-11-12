@@ -10,12 +10,12 @@ class InfoGraphics extends React.Component {
     render() {
         return (
             <div id="carousel-div">
-                <div>
-                    <h1>Why does this data matter?</h1>
-                    <h3>The content belows explains why the data shown in the map is important</h3>
-                    <h6>Use the side arrows to scroll through the slides or allow them to flow naturally. Slide count is displayed at the bottom</h6>
+                <div style={{ paddingBottom: "1%" }}>
+                    <h1 style={{ color: "dimgrey" }}>Why does this data matter?</h1>
+                    <h3 style={{ color: "dimgrey" }}>The content belows explains why the data shown in the map is important</h3>
+                    <h6 style={{ color: "dimgrey" }}>Use the side arrows to scroll through the slides or allow them to flow naturally. Slide count is displayed at the bottom</h6>
                 </div>
-                <Carousel id="carousel">
+                <Carousel id="carousel" variant="blue">
                     <Carousel.Item interval={null}>
                         <img
                             className="d-block w-100"
@@ -82,7 +82,7 @@ class InfoGraphics extends React.Component {
                         <Carousel.Caption>
                             <div id="carousel-divider1" >
                                 <h3 id="carousel-text">
-                                    If this were to happen, it could cause a “cascade” effect,
+                                    If this were to happen, it could cause a cascade effect,
             in which many species begin to die off.</h3>
                             </div>
                         </Carousel.Caption>
