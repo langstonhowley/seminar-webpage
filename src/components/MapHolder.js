@@ -7,7 +7,7 @@ import '../App.css'
 function MapHolder () {
   const [content, setContent] = useState('')
   return (
-    <section id='map'>
+    <section id='map' style={{ maxWidth: '100%' }}>
       <div>
         <div>
           <div style={{ paddingTop: '3%', paddingBottom: '3%' }}>
